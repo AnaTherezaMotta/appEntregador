@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Bem vindo entregador"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu nome"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edit_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu CPF"
+        android:inputType="text"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edit_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu telefone"
+        android:inputType="text"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Digite seu email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/check_aceite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Li e concordo com os Termos e Condições de Uso.Os Termos estarão disponiveis para consulta dentro do app"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/button_confirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRMAR"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
